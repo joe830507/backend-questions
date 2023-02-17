@@ -82,7 +82,7 @@ public class OrderTests {
 	}
 
 	private Date stringToDate(String string) throws ParseException {
-		DateFormat dateFormat = new SimpleDateFormat("yyyy-mm-dd");
+		DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 		return dateFormat.parse(string);
 	}
 
