@@ -13,8 +13,7 @@ GET http://localhost:8080/hello_world
 
 ### 訂單API
 ```
-1. GET    http://localhost:8080/orders?id={id}&productName={productName}&purchasedDate={purchasedDate} 
-          依照訂單ID或產品名稱或購買日期來查詢
+1. GET    http://localhost:8080/orders?id={id}&productName={productName}&purchasedDate={purchasedDate} 依照訂單ID或產品名稱或購買日期來查詢
 2. GET    http://localhost:8080/orders/{n} 查詢統計訂單數大於n的會員資料
 3. POST   http://localhost:8080/orders requestBody : {productId:1,accountId:1,purchasedCount:5} 會員可以訂購產品
 ```
